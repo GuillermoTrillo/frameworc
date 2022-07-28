@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <input type='text'>
+    <span class='tipo'>
+
+    </span>
+<script>
+    var input = document.querySelector('input');
+    
+    input.addEventListener('keyup', ()=>{
+    var texto = input.value;
+
+    var frase = document.querySelector('.tipo');
+
+    if (texto === 'chocolate') {
+
+    frase.innerText = ('aaaaaaaaaaaaa');
+    }
+    else if (texto === 'flocos') {
+
+frase.innerText = ('eeeeeeeeeeee');
+}
+else {
+
+frase.innerText = ('marianoooooo');
+}
+
+})
+
+</script>
+</body>
+</html>
